@@ -1,0 +1,81 @@
+
+.{
+	padding: 0px;
+	margin:0px;
+}
+
+.type{
+	font-family: 'Kaushan Script', cursive;
+	
+	font-size: 45px;
+	text-align: center;
+}
+.sub
+{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	color:black;
+	font-size: 25px;
+}
+
+.question
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	text-align: center;
+}
+#question{
+	text-align: center;
+}
+.title
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	color:black;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.n1 a:hover
+{
+	color:black;
+	text-decoration: none;
+}
+.n1
+{ 	
+	font-size: 20px;
+	background-color:none;
+	font-family: 'Dancing Script', cursive;
+}
+.n1 img{
+	border-style: solid;
+	border-color: none;
+	border-radius: 25px;
+}
+p
+{
+	font-family: 'Merienda', cursive;
+}
+.backgrounds {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  z-index: -1; }
+  .backgrounds .background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-attachment: fixed; }
+
+.overlay:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+   }
