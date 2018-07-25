@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Merienda" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <meta name="description" content="AOS - Animate On Scroll library using CSS3">
+    <meta name="keywords" content="AOS, animate on scroll, css3 scroll animations, simple scroll animations">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <title>CodingDen</title>
+  </head>
+  <body>
+    <div class="backgrounds overlay">
+      <div class="background" data-aos="fade-in" data-aos-duration="1500" data-aos-anchor=".section--hero" style="background-image: url('back2.jpg');"></div>
+    </div>
+    <div class="container">
+      <div id="type" class="type">CodingDen</div>
+   <div id="sub" class="sub"></div><br>
+    </div>
+   
+   <div class="container body" style="text-align: center;">
+  <div class="btn-group btn-group-lg " role="group" >
+  <button id="c" type="button" class="btn btn-secondary" onClick="reply_click(this.id)" data-toggle="collapse" href="#collapseExample">C#</button>
+  <button id="java"type="button" class="btn btn-secondary" onClick="reply_click(this.id)" data-toggle="collapse" href="#collapseExample">Java</button>
+</div>
+   
+  </div>
+  <div class=" question container ">
+    Select your choice of language and solve the given question to move forward
+  </div><b>
+  <div id="question"></div></b>
+  <div class="collapse" id="collapseExample">
+  <form>
+  <div class="form-group">
+    <label>Answer</label>
+    <input type="text" class="form-control" id="answer"  placeholder="answer">
+     <button type="button" id="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
